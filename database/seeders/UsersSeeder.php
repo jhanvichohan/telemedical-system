@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\User;
 use Illuminate\Database\Seeder;
-use Faker\Factory as Faker;
+use Faker;
 use Illuminate\Support\Facades\Hash;
 
 class UsersSeeder extends Seeder
